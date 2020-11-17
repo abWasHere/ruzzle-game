@@ -7,11 +7,11 @@ const WordsContextProvider = (props) => {
 	const [text, setText] = useState("");
 	const [foundWords, setFoundWords] = useState([]);
 
-	useEffect(() => {
-		if (wordsAlpha.find(text)) {
-			setFoundWords([...foundWords, text]);
-		}
-	}, [text]);
+	// useEffect(() => {
+	// 	if (wordsAlpha.find(text)) {
+	// 		setFoundWords([...foundWords, text]);
+	// 	}
+	// }, [text]);
 
 	/* --- Context Provider --- */
 	return (
