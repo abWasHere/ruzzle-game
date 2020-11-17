@@ -14,7 +14,6 @@ const WordsContextProvider = (props) => {
 	}, [text]);
 
 	/* --- Context Provider --- */
-
 	return (
 		<WordsContext.Provider
 			value={{

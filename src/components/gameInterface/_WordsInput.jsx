@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
-import { wordsContext } from "./../contexts/wordsContext";
+import { WordsContext } from "./../contexts/wordsContext";
 
 const _WordsInput = () => {
-	const { setText } = useContext(wordsContext);
+	const { setText } = useContext(WordsContext);
 
 	const [input, setInput] = useState("");
 
