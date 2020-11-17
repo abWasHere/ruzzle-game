@@ -1,0 +1,10 @@
+.Timer {
+	padding: 12px 20px 20px;
+	margin: 10px auto;
+
+	background-color: #fff;
+	color: #4c7ddd;
+	border-radius: 10px;
+	width: 200px;
+	text-align: center;
+}

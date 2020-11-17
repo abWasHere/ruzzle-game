@@ -1,0 +1,10 @@
+.WordsInput #words {
+	width: 250px;
+	margin-right: 5px;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+
+	font-size: 1rem;
+	line-height: 1.5;
+}

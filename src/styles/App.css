@@ -1,0 +1,18 @@
+@import "./reset.css";
+@import "./displays.css";
+@import "./buttons.css";
+@import "./Interfaces.css";
+@import "./WordsCount&List.css";
+@import "./Timer.css";
+@import "./RuzzleGrid.css";
+@import "./WordsInput.css";
+
+.App {
+	background-color: #4c7ddd;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}

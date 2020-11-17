@@ -1,0 +1,14 @@
+.RuzzleGrid {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
+
+.RuzzleGrid > div {
+	background-color: #fff;
+	color: #4c7ddd;
+	width: 90%;
+	height: 90%;
+	line-height: 50px;
+	text-align: center;
+}

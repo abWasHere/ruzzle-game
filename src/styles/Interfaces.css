@@ -1,0 +1,11 @@
+.Interface {
+	height: 50vh;
+	width: 80vw;
+}
+
+.StartInterface {
+	margin: auto;
+}
+.StartInterface .start-btn {
+	padding: 20px 30px;
+}
